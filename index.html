@@ -7,32 +7,30 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
+            width: 60%;
             margin: 50px auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #333;
         }
-        .project-card {
-            background: #fff;
-            padding: 15px;
-            margin: 15px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
+        .projects {
+            margin-top: 20px;
         }
-        .project-card:hover {
-            transform: scale(1.02);
+        .project {
+            background: #e3e3e3;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 5px;
         }
         a {
             text-decoration: none;
@@ -40,7 +38,19 @@
             font-weight: bold;
         }
         a:hover {
-            color: #0056b3;
+            text-decoration: underline;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -48,13 +58,24 @@
     <div class="container">
         <h1>Arpita Salaria - Data Analyst Portfolio</h1>
         <p>Welcome to my GitHub Portfolio! Here, I showcase my SQL, Power BI, and Excel projects.</p>
-        
-        <h2>🚀 Featured Project</h2>
-        <div class="project-card">
-            <h3>Cyber Loss & Claim Analysis (SQL + Power BI)</h3>
-            <p>A deep dive into insurance claim discrepancies using SQL analysis and Power BI visualizations.</p>
-            <a href="#">View Project</a>
+        <h2>✨ Featured Projects ✨</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Cyber Loss & Claim Analysis (SQL + Power BI)</h3>
+                <a class="button" href="https://github.com/Arp1410/Cyber-Insurance-Analytics-Fraud-Detection-Risk-Assessment-Using-SQL" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Global Job Market Insights (Excel Dashboard)</h3>
+                <a class="button" href="#" target="_blank">View Project</a>
+            </div>
         </div>
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
